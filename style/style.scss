@@ -1,0 +1,17 @@
+@import "./_header.scss";
+@import "./_hover.scss";
+@import "./_flex.scss";
+
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background: orange;
+    text-align: center;
+}
+
+
