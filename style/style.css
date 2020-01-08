@@ -7,6 +7,10 @@ header {
   border: 5px solid black;
 }
 
+.foods {
+  height: 200rem;
+}
+
 .food-parent {
   margin: 0 auto;
   height: 30rem;
@@ -15,6 +19,7 @@ header {
 
 .food-gallery {
   position: relative;
+  height: 50rem;
 }
 
 .food {
@@ -56,48 +61,6 @@ header {
   opacity: 0.3;
 }
 
-.flex-parent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: white;
-}
-
-.flexxx {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: red;
-}
-
-.img1 {
-  height: 30rem;
-  margin: 1rem;
-}
-
-a {
-  -webkit-text-decoration: no;
-          text-decoration: no;
-  background: red;
-  padding: 10px;
-  color: black;
-  border-radius: 4px;
-}
-
 .flex-child {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,9 +69,46 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 10rem;
+}
+
+.flex-child .flexxx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
   border: 5px solid black;
+  padding: 5px;
   margin: 5px;
-  padding: 1rem;
+}
+
+.img1 {
+  height: 100rem;
+}
+
+a {
+  -webkit-text-decoration: no;
+          text-decoration: no;
+  background: greenyellow;
+  padding: 10px;
+  color: black;
+  border-radius: 2rem;
+}
+
+.img1:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  outline: 2rem solid burlywood;
+  z-index: 2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  outline-offset: 1rem;
 }
 
 html {
