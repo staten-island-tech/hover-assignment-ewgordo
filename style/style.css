@@ -5,6 +5,8 @@ header {
   text-transform: uppercase;
   font-size: 30rem;
   border: 5px solid black;
+  background-color: crimson;
+  color: gainsboro;
 }
 
 .foods {
@@ -61,6 +63,45 @@ header {
   opacity: 0.3;
 }
 
+header:hover {
+  -webkit-transform: scaleX(2);
+          transform: scaleX(2);
+  background-color: indigo;
+  text-transform: lowercase;
+}
+
+.lol:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+}
+
+h1:hover {
+  color: black;
+}
+
+.choose:hover {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  color: skyblue;
+  outline: 10rem solid saddlebrown;
+  background-color: black;
+}
+
+.cream {
+  height: 50rem;
+}
+
+.yeet:hover {
+  -webkit-transform: rotateX(3);
+          transform: rotateX(3);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
 .flex-child {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,12 +134,12 @@ header {
 }
 
 a {
-  -webkit-text-decoration: no;
-          text-decoration: no;
+  text-decoration: none;
   background: greenyellow;
   padding: 10px;
   color: black;
   border-radius: 2rem;
+  font-size: 20rem;
 }
 
 .img1:hover {

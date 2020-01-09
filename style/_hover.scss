@@ -44,3 +44,34 @@
     transform: scale(0.9);
     opacity: 0.3;
 }
+header:hover {
+    transform: scaleX(2);
+    background-color: indigo;
+    text-transform: lowercase;
+}
+
+.lol:hover{
+    transition: all 1s;
+    transform: rotate(1080deg);
+}
+
+h1:hover{
+    color: black;
+}
+
+.choose:hover{
+    transform: scale(3);
+    transition: all .5s;
+    color: skyblue;
+    outline: 10rem solid saddlebrown;
+    background-color: black;
+}
+
+.cream {
+    height: 50rem;
+}
+
+.yeet:hover{
+    transform: rotateX(3);
+    transition: all .3s;
+}
