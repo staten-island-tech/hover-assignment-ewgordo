@@ -14,4 +14,16 @@ body{
     text-align: center;
 }
 
+.yeet{ 
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:20rem; top:0px;}
+  50%  {left:20rem; top:20rem;}
+  75%  {left:0px; top:20rem;}
+  100% {left:0px; top:0px;}
+}

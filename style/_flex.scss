@@ -1,7 +1,8 @@
 .flex-child {
  display: flex;
  flex-direction: column;
- font-size: 10rem;
+ font-size: 2.3rem;
+ height: fit-content;
 
 
 .flexxx {
@@ -16,7 +17,7 @@
 }
 
 .img1 {
-  height: 100rem;
+  height: 28rem;
 }
 
 a {
@@ -24,8 +25,8 @@ a {
   background: greenyellow;
   padding:10px;
   color:black;
-  border-radius:2rem;
-  font-size: 20rem;
+  border-radius:1rem;
+  font-size: 2rem;
 }
 
 .img1:hover {
