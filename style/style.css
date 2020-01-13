@@ -96,6 +96,13 @@ h1:hover {
   right: 10rem;
 }
 
+.cream:hover {
+  -webkit-transform: scale(6) translate(100%);
+          transform: scale(6) translate(100%);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
 .ice:hover {
   -webkit-transform: scale(3) skew(30deg, 20deg);
           transform: scale(3) skew(30deg, 20deg);

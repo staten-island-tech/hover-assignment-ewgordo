@@ -72,6 +72,11 @@ h1:hover{
     right: 10rem;
 }
 
+.cream:hover{
+    transform: scale(6) translate(100%);
+    transition: all .4s;
+}
+
 .ice:hover{
     transform: scale(3) skew(30deg, 20deg);
     transition: all .3s;
