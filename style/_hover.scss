@@ -69,9 +69,10 @@ h1:hover{
 
 .cream {
     height: 35rem;
+    right: 10rem;
 }
 
-.yeet:hover{
-    transform: rotateX(3);
+.ice:hover{
+    transform: scale(3) skew(30deg, 20deg);
     transition: all .3s;
 }

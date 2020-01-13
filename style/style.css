@@ -93,11 +93,12 @@ h1:hover {
 
 .cream {
   height: 35rem;
+  right: 10rem;
 }
 
-.yeet:hover {
-  -webkit-transform: rotateX(3);
-          transform: rotateX(3);
+.ice:hover {
+  -webkit-transform: scale(3) skew(30deg, 20deg);
+          transform: scale(3) skew(30deg, 20deg);
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -168,58 +169,36 @@ body {
   text-align: center;
 }
 
-.yeet {
+div {
   -webkit-animation-name: example;
           animation-name: example;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes example {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    left: 20rem;
-    top: 0px;
+    left: 200px;
   }
   50% {
-    left: 20rem;
-    top: 20rem;
-  }
-  75% {
-    left: 0px;
-    top: 20rem;
+    left: -200px;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    left: 200px;
   }
 }
 
 @keyframes example {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    left: 20rem;
-    top: 0px;
+    left: 200px;
   }
   50% {
-    left: 20rem;
-    top: 20rem;
-  }
-  75% {
-    left: 0px;
-    top: 20rem;
+    left: -200px;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    left: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
